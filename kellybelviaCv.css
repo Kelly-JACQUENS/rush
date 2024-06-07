@@ -1,0 +1,75 @@
+body{
+    text-align: center;
+}
+main{
+    padding: 0 20px;
+}
+
+.navContainer{
+    height: 80px;
+    background-color: grey;
+    color: white;
+    
+
+}
+
+.meContainer{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    padding: 10px;
+    align-items: center;  
+    border-bottom: 1px solid grey;
+}
+
+.mePhoto{
+    justify-content: center;
+    padding: 0 50px;
+    width: 50%;
+    border-radius: 50%;
+
+}
+
+.meName{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+img{
+    width: 200px;
+    border-radius: 50%;
+    
+    
+}
+
+.navLink {
+    color: white;
+}
+
+.exContainer{
+    text-align: center;
+    padding: 20px 50px;
+
+    
+}
+
+h3{
+    padding: 25px 0 15px 0;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+tr{
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+th{
+    width: 180px;
+    border-right: 1px solid black;
+}
+
+nav-link:hover{
+    font-size: 15px;
+}
