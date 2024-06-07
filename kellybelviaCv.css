@@ -6,6 +6,8 @@ main{
 }
 
 .navContainer{
+    width: 100%;
+    float: left;
     height: 80px;
     background-color: grey;
     color: white;
@@ -19,6 +21,7 @@ main{
     display: flex;
     padding: 10px;
     align-items: center;  
+    justify-content: space-around;
     border-bottom: 1px solid grey;
 }
 
