@@ -1,48 +1,118 @@
 body{
-    width: 100vw;
-    height: 100vh;
-    
-    
+    position: relative;
 }
 
 .homeContainer{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.homeTitle{
+    color:black;
+    position: absolute;
+    top: 50%;
     width: 100%;
-    height: 100%;
-    /* position: absolute;
-    background-color: rgba(128, 128, 128, 0.377); */
-    
-    
+    text-align: center;
+    z-index: 999999;
+    background-color: rgba(255, 255, 255, 0.064);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+span{
+    color: white;
+}
+
+.homeImages{
+    display: flex;
+    z-index: 0;
 }
 
 .homeImage{
     display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-img{
+.imageLink{
     width: 50%;
+    text-decoration: none;
 }
 
-a:hover{
-    width: 55%;
+.imageLink:hover p {
+    display: block;
+}
+
+
+#sunsetImg{
+    height: 100vh;
+    background-image: url("img/digitalNomad.jpg");
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+#natureImg{
+    height: 100vh;
+    background-image: url("img/image_nature.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+p{
+    display: none;
+    font-size: 20px ;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.kellyCv{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.125)
+}
+
+.belviaCv{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.14);
 }
 
 
 
-
-@media only screen and (max-width: 600px){
-    body{
-        height: 100%;
-        width: 100%;
+@media only screen and (max-width: 1200px){
+    .homeTitle{
+        color: black;
+        background-color: rgba(255, 255, 255, 0.262);
+        border: 1px solid transparent;
+        border-radius: 10px;
+        padding: 30px;
 
     }
-
-    .homeImage{
+    span{
+        color: black;
+    }
+    
+    .homeImages{
         flex-direction: column;
     }
 
-    img{
+   .imageLink{
         width: 100%;
     }
+
+    #sunsetImg{
+        height: 500px;
+    }
+
+    #natureImg{
+        height: 500px;
+    }
+
 
 
 }
