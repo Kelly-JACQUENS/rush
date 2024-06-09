@@ -46,13 +46,11 @@ span{
     display: block;
 }
 
-
 #sunsetImg{
     height: 100vh;
     background-image: url("img/digitalNomad.jpg");
     background-size: cover;
     background-position: center;
-
 
 }
 
@@ -83,7 +81,7 @@ p{
 }
 
 
-
+/*Responsive for screen less than 1200px*/
 @media only screen and (max-width: 1200px){
     .homeTitle{
         color: black;

@@ -2,33 +2,35 @@ body{
     text-align: center;
 }
 main{
-    padding: 0 20px;
+    padding: 0 150px;
 }
 
 .navContainer{
+    display: flex;
     width: 100%;
-    float: left;
+    justify-content: center;
+    align-items: center;
     height: 80px;
-    background-color: grey;
-    color: white;
-    
+    background-color: #00B0F0;
 
+}
+
+.nav-link {
+    color: white;
 }
 
 .meContainer{
-    width: 100%;
+
     height: 450px;
     display: flex;
-    padding: 10px;
+    padding: 10px 100px;
     align-items: center;  
-    justify-content: space-around;
-    border-bottom: 1px solid grey;
+    justify-content: center;
+
 }
 
 .mePhoto{
-    justify-content: center;
-    padding: 0 50px;
-    width: 50%;
+    width: 30%;
     border-radius: 50%;
 
 }
@@ -36,43 +38,74 @@ main{
 .meName{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    justify-content: left;
+    width: 60%;
+}
+
+h3{
+    color: #00B0F0 ;
 }
 
 img{
     width: 200px;
-    border-radius: 50%;
-    
-    
+
 }
 
-.navLink {
-    color: white;
+.description{
+    padding-top: 15px;
 }
 
 .exContainer{
     text-align: center;
-    padding: 20px 50px;
+    padding: 0 50px 70px 50px;
 
-    
+
 }
 
-h3{
-    padding: 25px 0 15px 0;
-    text-align: left;
-    border-bottom: 1px solid black;
+li{
+    list-style-type: none;
 }
 
-tr{
-    padding: 20px;
-    border-bottom: 1px solid black;
+h5{
+    color: #00B0F0;
+    text-align: start;
+    margin: 40px 0 30px 0;
+    border-bottom: 1px solid #00B0F0;
+}
+
+
+.experiences{
+    margin-bottom: 20px;
 }
 
 th{
-    width: 180px;
+    width: 300px;
     border-right: 1px solid black;
 }
 
 nav-link:hover{
     font-size: 15px;
+}
+
+.contactContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #00B0F0;
+    color: white;
+}
+
+.contact{
+    padding-right: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.bi .bi-linkedin{
+    width: 20px;
 }
